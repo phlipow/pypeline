@@ -1,4 +1,4 @@
-# Pipeline
+# Pypeline
 
 This repository contains a Python implementation of a simple pipeline for processing tasks using threads and queues.
 
