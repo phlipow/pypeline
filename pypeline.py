@@ -36,7 +36,3 @@ class Pipeline:
         self._queues[0].put(self._STOPPER)
         for thread in self._threads:
             thread.join()
-
-pipeline.start()
-pipeline.stop()
-
