@@ -20,7 +20,7 @@ The `Pipeline` class allows you to create a series of tasks that can be executed
 To create a pipeline, initialize it with a list of tasks:
 
 ```python
-from pipeline import Pipeline
+from pypeline import Pipeline
 
 def task1(item):
     return item + 1
