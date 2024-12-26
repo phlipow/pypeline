@@ -37,9 +37,6 @@ class Pipeline:
         for thread in self._threads:
             thread.join()
 
-# Example usage
-pipeline = Pipeline([1, 2, 3])
-
 pipeline.start()
 pipeline.stop()
 
