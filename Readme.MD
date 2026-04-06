@@ -37,7 +37,7 @@ pipeline = Pipeline(tasks)
 To add an item to the pipeline, use the `put` method:
 
 ```python
-pipeline.put(1)
+pipeline.put(input)
 ```
 
 ### Retrieving Results
@@ -46,7 +46,6 @@ To retrieve results from the pipeline, use the `get` method:
 
 ```python
 result = pipeline.get()
-print(result)  # Output will depend on the tasks defined
 ```
 
 You can also retrieve results as a generator:
